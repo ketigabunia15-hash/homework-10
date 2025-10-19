@@ -4,13 +4,29 @@
 	box-sizing: border-box;
 }
 
-img{
-    width: 10%;
-}
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #00008b; 
+  background-color: #00008b;
+  color: white;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 30px 60px;
+}
+
+.top h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
 }
 
 .grid-container {
